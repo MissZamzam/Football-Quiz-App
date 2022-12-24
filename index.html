@@ -1,44 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Football Quiz</title>
-</head>
-<body>
-    <div class="start-screen">
-        <button id="start-button">Start</button>
-    </div>
-    <div class="display-container">
-        <div class="header">
-            <div class="number-of-count">
-                <span class="number-of-question">1 of 3 question</span>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0f386651af.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Javascript Quiz App</title>
+  </head>
+  <body>
+    <section class="quiz-section">
+      <div class="quiz-container">
+        <h1>Javascript Quiz App</h1>
 
-        <div class="timer-div">
-        <img src="https: //i.postimg.cc/q7BCXNDy/timer-icon.png" /> 
-            <span class="time-left">10s</span>
-        </div> 
-    </div>
-     <div id="container">
-        <!-- questions and options will be displayed here -->
-    </div> 
-
-    <button id="next-button">Next</button>
-     </div>
-        
-        <div class="score-container hide">
-        <div id="user-score">Demo Score</div> 
-        <button id="restart">Restart</button>
+        <!-- Choosing subject section -->
+        <div class="subjects-container show">
+          <p>Pick a subject</p>
+          <ul class="subjects">
+            <li class="subject">
+              Mathematics <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="subject">
+              Mathematics <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="subject">
+              Mathematics <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="subject">
+              Mathematics <i class="fa-solid fa-chevron-right"></i>
+            </li>
+          </ul>
         </div>
-        
-        
-        <script src="index.js"></script>
-</body>
+        <!-- Questions section -->
+        <div class="questions-container">
+          <div class="question-header">
+            <p class="question"><strong>Question:</strong> What is Html?</p>
+            <p class="score"><strong>Score:</strong> 1/5</p>
+          </div>
+          <ul class="answers">
+            <li class="answer">Choice 1</li>
+            <li class="answer">Choice 1</li>
+            <li class="answer">Choice 1</li>
+            <li class="answer">Choice 1</li>
+          </ul>
+          <div class="btns">
+            <h5 class="quit-btn">Quit</h5>
+            <h5 class="next-btn">Next question</h5>
+          </div>
+        </div>
+        <!-- Result Section -->
+        <div class="result-container">
+          <div class="result">
+            <p class="final-score">4</p>
+          </div>
+          <p>Would you like to restart?</p>
+          <div class="btns">
+            <button class="restart-btn">Yes</button>
+            <button class="quit-btn">No</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="app.js"></script>
+  </body>
 </html>
-
-
-
-
