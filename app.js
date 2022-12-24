@@ -1,36 +1,88 @@
 const quizData = [
     {
-      subject: "Mathematics",
+      subject: "World Cup 2022 ",
       questions: [
         {
-          question: "Find the sum of 111 + 222 + 333",
-          options: [700, 666, 10, 100],
-          correctOption: 666,
+          question: "Which club had three players starting in the World Cup final?",
+          options: [
+            "Atlético Madrid",
+            "PSG",
+            "Real Madrid",
+  
+            "Tottenham Hotspur",
+            ],
+          correctOption: "Atlético Madrid",
         },
         {
-          question: "Subtract 357 from 932",
-          options: [10, 68, 575, 765],
-          correctOption: 575,
+          question: "2.Which of these players did not score a goal in the knockout stages?",
+          options: [
+            "Denzel Dumfries",
+            "Jordan Henderson ",
+            "Pepe",
+            "Cristiano Ronaldo",
+            ],
+          correctOption: "Cristiano Ronaldo",
         },
         {
-          question: " 70 times 5 is equal to",
-          options: [350, 686, 12, 705],
-          correctOption: 350,
+          question: "Who was the only player to score two goals in two different games?",
+          options: [
+            "Lionel Messi",
+            "Gonçalo Ramos",
+            "Kylian Mbappé",
+  
+            "Olivier Giroud",
+            ],
+          correctOption: "Kylian Mbappé",
         },
         {
-          question: "Simplify: 26 + 182 - 12",
-          options: [70, 196, 190, 140],
-          correctOption: 196,
+          question: "How many of the five African countries in the tournament were managed by African managers in 2022 Fifa?",
+          options: [
+            "One",
+            "Three",
+            "Four",
+  
+            "Five",
+            ],
+          correctOption: "Five",
         },
         {
-          question: " Solve : 24 + 4 ÷ 4",
-          options: [25, 6, 28, 10],
-          correctOption: 25,
+          question: " Which nation has won the most World Cups?",
+          options: [
+            "Germany",
+            "Italy",
+            "Colombia",
+            "Brazil",
+            ],
+          correctOption: "Brazil",
+
+        },
+        {
+          question: "Where did the 1st World Cup take place?",
+          options: [
+            "Germany",
+            "Italy",
+            "England",
+            "Uruguay",
+            ],
+          correctOption: "Uruguay",
+
+
+        },
+        {
+          question: " Which nation has won the most World Cups?",
+          options: [
+            "Germany",
+            "Italy",
+            "Colombia",
+            "Brazil",
+            ],
+          correctOption: "Brazil",
+
         },
       ],
     },
     {
-      subject: "Coding",
+      subject: "Players",
       questions: [
         {
           question: "What is Html?",
@@ -66,7 +118,7 @@ const quizData = [
       ],
     },
     {
-      subject: "English",
+      subject: "Cups & Trophies",
       questions: [
         {
           question: "What is correct?",
