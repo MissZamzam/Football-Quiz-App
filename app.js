@@ -3,36 +3,24 @@ const quizData = [
       subject: "World Cup 2022 ",
       questions: [
         {
-          question: "Which club had three players starting in the World Cup final?",
+          question: "Which club had three players starting in the 2022 World Cup final?",
           options: [
             "Atlético Madrid",
             "PSG",
             "Real Madrid",
-  
             "Tottenham Hotspur",
             ],
           correctOption: "Atlético Madrid",
         },
         {
-          question: "2.Which of these players did not score a goal in the knockout stages?",
+          question: "In what year did the World Cup competition start?",
           options: [
-            "Denzel Dumfries",
-            "Jordan Henderson ",
-            "Pepe",
-            "Cristiano Ronaldo",
+            "1930",
+            "1890 ",
+            "1925",
+            "1950",
             ],
-          correctOption: "Cristiano Ronaldo",
-        },
-        {
-          question: "Who was the only player to score two goals in two different games?",
-          options: [
-            "Lionel Messi",
-            "Gonçalo Ramos",
-            "Kylian Mbappé",
-  
-            "Olivier Giroud",
-            ],
-          correctOption: "Kylian Mbappé",
+          correctOption: "1930",
         },
         {
           question: "How many of the five African countries in the tournament were managed by African managers in 2022 Fifa?",
@@ -54,6 +42,16 @@ const quizData = [
             "Brazil",
             ],
           correctOption: "Brazil",
+        },
+        {
+          question: "Where did the 1st World Cup take place?",
+          options: [
+            "Germany",
+            "Italy",
+            "England",
+            "Uruguay",
+            ],
+          correctOption: "Uruguay",
 
         },
         {
@@ -121,7 +119,7 @@ const quizData = [
       subject: "Cups & Trophies",
       questions: [
         {
-          question: "What is correct?",
+          question: "What was the venue of the first ever European Cup?",
           options: [
             "Circumstance",
             "Circummstance",
