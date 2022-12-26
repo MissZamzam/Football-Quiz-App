@@ -77,6 +77,81 @@ const quizData = [
           correctOption: "Brazil",
 
         },
+        {
+          question: "Which club had three players starting in the 2022 World Cup final?",
+          options: [
+            "Atlético Madrid",
+            "PSG",
+            "Real Madrid",
+            "Tottenham Hotspur",
+            ],
+          correctOption: "Atlético Madrid",
+        },
+        {
+          question: "In what year did the World Cup competition start?",
+          options: [
+            "1930",
+            "1890 ",
+            "1925",
+            "1950",
+            ],
+          correctOption: "1930",
+        },
+        {
+          question: "How many of the five African countries in the tournament were managed by African managers in 2022 Fifa?",
+          options: [
+            "One",
+            "Three",
+            "Four",
+  
+            "Five",
+            ],
+          correctOption: "Five",
+        },
+        {
+          question: " Which nation has won the most World Cups?",
+          options: [
+            "Germany",
+            "Italy",
+            "Colombia",
+            "Brazil",
+            ],
+          correctOption: "Brazil",
+        },
+        {
+          question: "Where did the 1st World Cup take place?",
+          options: [
+            "Germany",
+            "Italy",
+            "England",
+            "Uruguay",
+            ],
+          correctOption: "Uruguay",
+
+        },
+        {
+          question: "Where did the 1st World Cup take place?",
+          options: [
+            "Germany",
+            "Italy",
+            "England",
+            "Uruguay",
+            ],
+          correctOption: "Uruguay",
+
+
+        },
+        {
+          question: " Which nation has won the most World Cups?",
+          options: [
+            "Germany",
+            "Italy",
+            "Colombia",
+            "Brazil",
+            ],
+          correctOption: "Brazil",
+
+        },
       ],
     },
     {
@@ -205,7 +280,7 @@ const quizData = [
   };
   
   const getQuestions = () => {
-    scoreContainer.innerHTML = `<strong>Score:</strong> ${score}/5`;
+    scoreContainer.innerHTML = `<strong>Score:</strong> ${score}/9`;
     // Find the questions related to the chosen subject
     const subjectQuestions = quizData.find((data) => {
       if (data.subject.toLowerCase() === subject) {
@@ -238,7 +313,7 @@ const quizData = [
   
     const infoContainer = e.currentTarget;
   
-    if (index == 4) {
+    if (index == 8) {
       nextBtn.textContent = `Show Result`;
     }
   
@@ -252,7 +327,7 @@ const quizData = [
       infoContainer.classList.remove("lose");
       infoContainer.classList.add("win");
       score++;
-      scoreContainer.innerHTML = `<strong>Score:</strong> ${score}/5`;
+      scoreContainer.innerHTML = `<strong>Score:</strong> ${score}/9`;
       audio2.play();
     } else {
       audio1.play();
@@ -266,8 +341,8 @@ const quizData = [
     nextBtn.classList.remove("show");
     acceptingAnswers = true;
   
-    if (index > 4) {
-      index = 4;
+    if (index > 8) {
+      index = 8;
   
       resultContainer.classList.add("show");
       questionsContainer.classList.remove("show");
