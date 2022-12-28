@@ -191,7 +191,43 @@ const quizData = [
       ],
     },
     {
-      subject: "Cups & Trophies",
+      subject: "Leagues",
+      questions: [
+        {
+          question: "What is Html?",
+          options: [
+            "Hypertext Markup Language",
+            "Hypotext Markup Language",
+            "Hypertext Makeup Language",
+  
+            "Hypertext Mockup Language",
+          ],
+          correctOption: "Hypertext Markup Language",
+        },
+        {
+          question: "Is CSS a programming Language",
+          options: ["Yes", "No", "Maybe", "I don't know"],
+          correctOption: "No",
+        },
+        {
+          question: "Javascript is the same as Java",
+          options: ["True", "False", "Maybe", "I don't know"],
+          correctOption: "False",
+        },
+        {
+          question: "Javascript can only be used for Web development",
+          options: ["True", "False", "Maybe", "I don't know"],
+          correctOption: "False",
+        },
+        {
+          question: "What is '2' + '2'",
+          options: [4, 22, 5, 10],
+          correctOption: 22,
+        },
+      ],
+    },
+    {
+      subject: "Cups, Trophies & Awards",
       questions: [
         {
           question: "What was the venue of the first ever European Cup?",
