@@ -44,112 +44,132 @@ const quizData = [
           correctOption: "Brazil",
         },
         {
-          question: "Where did the 1st World Cup take place?",
+          question: "Who scored the 'Hand of God' goal?",
           options: [
-            "Germany",
-            "Italy",
-            "England",
-            "Uruguay",
+            "JJ Okocha",
+            "Kafu",
+            "Ronaldinho",
+            "Diego Maradona",
             ],
-          correctOption: "Uruguay",
+          correctOption: "Diego Maradona",
 
         },
         {
-          question: "Where did the 1st World Cup take place?",
+          question: "Which country hosted the 2022 World Cup?",
           options: [
             "Germany",
-            "Italy",
+            "Qatar",
             "England",
             "Uruguay",
             ],
-          correctOption: "Uruguay",
+          correctOption: "Qatar",
 
 
         },
         {
-          question: " Which nation has won the most World Cups?",
+          question: "What is the name of the award for best player?",
           options: [
-            "Germany",
-            "Italy",
-            "Colombia",
+            "Golden Ball",
+            "Golden Boot",
+            "Ballon D'or",
+            "Golden Glove",
+            ],
+          correctOption: "Golden Ball",
+
+        },
+        {
+          question: "Which country hosted the World Cup in 2018?",
+          options: [
+            "Russia",
+            "England",
             "Brazil",
+            "South Africa",
             ],
-          correctOption: "Brazil",
-
+          correctOption: "Russia",
         },
         {
-          question: "Which club had three players starting in the 2022 World Cup final?",
+          question: "Who is the only football player to have won 3 world cups?",
           options: [
-            "Atlético Madrid",
-            "PSG",
-            "Real Madrid",
-            "Tottenham Hotspur",
+            "Pelé",
+            "Zidane ",
+            "Maradona",
+            "Messi",
             ],
-          correctOption: "Atlético Madrid",
+          correctOption: "Pelé",
         },
         {
-          question: "In what year did the World Cup competition start?",
+          question: "Who won the Best Young Player Award in 2018?",
           options: [
-            "1930",
-            "1890 ",
-            "1925",
-            "1950",
-            ],
-          correctOption: "1930",
-        },
-        {
-          question: "How many of the five African countries in the tournament were managed by African managers in 2022 Fifa?",
-          options: [
-            "One",
-            "Three",
-            "Four",
+            "Kylian Mbappe",
+            "Neymar jr",
+            "Cristiano Ronaldo",
   
-            "Five",
+            "Achraf Hakimi",
             ],
-          correctOption: "Five",
+          correctOption: "Kylian Mbappe",
         },
         {
-          question: " Which nation has won the most World Cups?",
+          question: "When was Croatia first allowed to participate as an independent country?",
           options: [
-            "Germany",
-            "Italy",
-            "Colombia",
-            "Brazil",
+            "1998",
+            "1960",
+            "1988",
+            "2000",
             ],
-          correctOption: "Brazil",
+          correctOption: "1998",
         },
         {
-          question: "Where did the 1st World Cup take place?",
+          question: "When was the Golden Ball first awarded?",
           options: [
-            "Germany",
-            "Italy",
-            "England",
-            "Uruguay",
+            "1982",
+            "1995",
+            "2004",
+            "1978",
             ],
-          correctOption: "Uruguay",
+          correctOption: "1982",
 
         },
         {
-          question: "Where did the 1st World Cup take place?",
+          question: "Which of the following is not a goalkeeper?",
           options: [
-            "Germany",
-            "Italy",
-            "England",
-            "Uruguay",
+            "Manuel Neuer",
+            "Thibaut Courtois",
+            "Gianluigi Buffon",
+            "Antoine Griezmann",
             ],
-          correctOption: "Uruguay",
-
+          correctOption: "Antoine Griezmann",
+        },
+        {
+          question: "Which of the following countries never hosted the world cup?",
+          options: [
+            "Russia",
+            "Mexico",
+            "United States",
+            "Australia",
+            ],
+          correctOption: "Australia",
 
         },
         {
-          question: " Which nation has won the most World Cups?",
+          question: "Who is the coach of England’s national team for the 2022 World Cup?",
           options: [
-            "Germany",
-            "Italy",
-            "Colombia",
-            "Brazil",
+            "Gareth Southgate",
+            "Graham Arnold",
+            "Didier Deschamps",
+            "Ryan Giggs",
             ],
-          correctOption: "Brazil",
+          correctOption: "Gareth Southgate",
+
+        },
+        {
+          question: "Which football player was nicknamed “The Divine Bald One”?",
+          options: [
+            "Brad Friedel",
+            "Bobby Charlton",
+            "Fabien Barthez",
+            "Thierry Henry",
+            ],
+          correctOption: "Fabien Barthez",
 
         },
       ],
@@ -316,7 +336,7 @@ const quizData = [
   };
   
   const getQuestions = () => {
-    scoreContainer.innerHTML = `<strong>Score:</strong> ${score}/9`;
+    scoreContainer.innerHTML = `<strong>Score:</strong> ${score}/16`;
     // Find the questions related to the chosen subject
     const subjectQuestions = quizData.find((data) => {
       if (data.subject.toLowerCase() === subject) {
@@ -349,7 +369,7 @@ const quizData = [
   
     const infoContainer = e.currentTarget;
   
-    if (index == 8) {
+    if (index == 15) {
       nextBtn.textContent = `Show Result`;
     }
   
@@ -363,7 +383,7 @@ const quizData = [
       infoContainer.classList.remove("lose");
       infoContainer.classList.add("win");
       score++;
-      scoreContainer.innerHTML = `<strong>Score:</strong> ${score}/9`;
+      scoreContainer.innerHTML = `<strong>Score:</strong> ${score}/16`;
       audio2.play();
     } else {
       audio1.play();
@@ -377,8 +397,8 @@ const quizData = [
     nextBtn.classList.remove("show");
     acceptingAnswers = true;
   
-    if (index > 8) {
-      index = 8;
+    if (index > 15) {
+      index = 15;
   
       resultContainer.classList.add("show");
       questionsContainer.classList.remove("show");
