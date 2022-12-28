@@ -214,35 +214,104 @@ const quizData = [
       subject: "Leagues",
       questions: [
         {
-          question: "What is Html?",
+          question: "Which club is nicknamed the toffees?",
           options: [
-            "Hypertext Markup Language",
-            "Hypotext Markup Language",
-            "Hypertext Makeup Language",
-  
-            "Hypertext Mockup Language",
+            "Everton",
+            "WEst Ham United",
+            "Middlesbrough",
+            "Derby County",
           ],
-          correctOption: "Hypertext Markup Language",
+          correctOption: "Everton",
         },
         {
-          question: "Is CSS a programming Language",
-          options: ["Yes", "No", "Maybe", "I don't know"],
-          correctOption: "No",
+          question: " Which of these teams was not relegated to Division I at the end of the 2001-02 season?",
+          options: [
+            "Fulham", 
+            "Leicester City", 
+            "Derby County", 
+            "Ipswich Town",
+          ],
+          correctOption: "Fulham",
         },
         {
-          question: "Javascript is the same as Java",
-          options: ["True", "False", "Maybe", "I don't know"],
-          correctOption: "False",
+          question: " Who was the manager of Bolton Wanderers from 1999 to 2007?",
+          options: [
+            "Samuel Maritz Bhansali", 
+            "Jose Maria Fangio", 
+            "Sam Allardyce", 
+            "Johnathan Franco" ,       
+           ],
+          correctOption: "Sam Allardyce",
         },
         {
-          question: "Javascript can only be used for Web development",
-          options: ["True", "False", "Maybe", "I don't know"],
-          correctOption: "False",
+          question: "1994-95. Manchester United did not win the league, but their home record was impressive. How many goals did they concede in their 21 games at Old Trafford?",
+          options: [
+            "One", 
+            "Four", 
+            "Seven", 
+            "Eleven"  ,        
+            ],
+          correctOption: "Four",
         },
         {
-          question: "What is '2' + '2'",
-          options: [4, 22, 5, 10],
-          correctOption: 22,
+          question: "What did Arsenal do in the 2001-02 season that had not been done before in the Premier League?",
+          options: [
+            "They went unbeaten all season", 
+            "They did not lose an away match all season", 
+            "They scored 100 goals", 
+            "They won the league while also picking up more red cards than any other team",
+                      ],
+          correctOption: "They did not lose an away match all season",
+        },
+        {
+          question: "Against which club did Alan Shearer score his last Premier League goal in April 2006?",
+          options: [
+            "Blackburn",
+            "Chelsea",
+            "Manchester United",
+            "Sunderland",
+          ],
+          correctOption: "Sunderland",
+        },
+        {
+          question: "Who was Roberto Mancini referring to when he said: “We were beaten by a moment of pure genius”?",
+          options: [
+            "Dimitar Berbatov",
+            "Michael Owen",
+            "Wayne Rooney",
+            "Paul Scholes",        ],
+          correctOption: "Wayne Rooney",
+        },
+        {
+          question: "Manchester City pipped Manchester United on goal difference to win their first Premier League title. How many points did both clubs win?",
+          options: [
+            "84",
+            "87",
+            "89",
+            "92",          ],
+          correctOption: "89",
+        },
+        {
+          question: "What was unusual about Alex Ferguson’s last game in charge of Manchester United in May 2013?",
+          options: [
+            "It was the most goals United had conceded in a game that season",
+            "It was the highest scoring draw in Premier League history",
+            "A second-half substitute scored a hat-trick",
+            "All four of the above",
+            "United conceded three goals in the last 10 minutes of a league match for only the second time under Ferguson",      
+               ],
+          correctOption: "All four of the above",
+        
+        },
+        {
+          question: "Sadio Mané scored the quickest hat-trick in Premier League history. How long did it take him to score three goals for Southampton against Aston Villa?",
+          options: [
+            "Two minutes and 56 seconds",
+            "Four minutes and 11 seconds",
+            "Seven minutes and 31 seconds",
+            "Nine minutes and 19 seconds",          
+            ],
+          correctOption: "Two minutes and 56 seconds",
         },
       ],
     },
