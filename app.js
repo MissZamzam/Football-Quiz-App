@@ -203,11 +203,7 @@ const quizData = [
           options: ["True", "False", "Maybe", "I don't know"],
           correctOption: "False",
         },
-        {
-          question: "What is '2' + '2'",
-          options: [4, 22, 5, 10],
-          correctOption: 22,
-        },
+      
       ],
     },
     {
