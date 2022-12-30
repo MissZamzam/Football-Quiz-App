@@ -189,11 +189,6 @@ const quizData = [
           correctOption: "Hypertext Markup Language",
         },
         {
-          question: "Is CSS a programming Language",
-          options: ["Yes", "No", "Maybe", "I don't know"],
-          correctOption: "No",
-        },
-        {
           question: "Javascript is the same as Java",
           options: ["True", "False", "Maybe", "I don't know"],
           correctOption: "False",
