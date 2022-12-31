@@ -183,7 +183,6 @@ const quizData = [
             "Hypertext Markup Language",
             "Hypotext Markup Language",
             "Hypertext Makeup Language",
-  
             "Hypertext Mockup Language",
           ],
           correctOption: "Hypertext Markup Language",
